@@ -1,55 +1,32 @@
-# Dreadful Tomato
+# React Test
 
-Dreadful Tomato is a new platform to find new movies and TV shows. The main objective is to
- help users to find information about their favourite TV shows and movies.
- 
-To do so, the company has to create a new web app that allow users do some fancy things.
+This is a technical test
 
-## What do you have to do?
+## Quick start
+Once you have the repo cloned, run the following commands:
 
-Dreadful Tomato needs to implement an awesome webpage where the users could view information
- about almost every new TV Shows and movie.
- 
-The Design team has sent us the new interface which has to be implemented. As you could see,
- there are three different pages.
- 
-* The first page is a landing page where user could select whether she wants to see TV shows
- or movies and some claims and logo of Dreadful Tomato
-* The second one is the list of TV shows. Here, the user could filter TV shows by title and
- release year. In that page the user will see a list of card with the Title, description
- and image from each TV show. 
-* The third one is quite similar, but for the movies. The user could filter by title and
- release year as well, to see a list of cards with the information of every movie.
- 
-Here you could see the design of the 3 pages:
+## Install dependencies:
+npm install
 
-Home page:
+## Run Project:
+(on project folder) npm start
+       
+## Execute tests:
+Execute command: npm run test and open /coverage/lcov-report/index.html on your browser to see the results well displayed
 
-![](images/Dreadful%20Tomato%20-%20HOME.png)
 
-TV shows page:
+## Observations:
 
-![](images/Dreadful%20Tomato%20-%20POPULAR%20SERIES.png)
+1. During the developement of the test I had some problems for fetching the data URL https://gitlab.com/-/snippets/2041384/raw/master/data.json because of CORS errors. I tried to put on the headers the mode: "no-cors" and the Access Control header but I get no results. Finally I found a solution using a CORS Proxy Server and mounting the URL as: https://cors.bridged.cc/https://gitlab.com/-/snippets/2041384/raw/master/data.json
 
-Movies page:
+2. Appart from that, I used Ant Design for the paginator because is a library I have been using for a long time.
 
-![](images/Dreadful%20Tomato%20-%20POPULAR%20MOVIES.png) 
- 
-## Technical Requirements
+3. The Application is not responsive, so it's only well-displayed on browsers.
 
-Their CTO has no time to implement that, but she has defined some technical constraints:
- 
- * This webapp has to be develop using React
- * Use and create reusable [Carbon](https://www.carbondesignsystem.com/) components
- * Create a **clean, maintainable and well-designed** code
- * Test your code until you are comfortable with that
- 
-#### Considerations
+4. In order to load the media information, I have used redux-saga Middleware.
 
- * To obtain the data of the TV Shows and Movies, you have to request [that file](https://gitlab.com/-/snippets/2041384/raw/master/data.json).
- * Use SCSS or SASS to manage your stylesheets
- * Use any component you want in the date picker to allow the user select the Year
- * Pay attention to hover effects (Home and Shows/Movies cards) 
- 
-To understand how you take decisions during the implementation, please write a README file
- explaining some of the most important parts of the application.
+5. Moreover, to simulate the response time of BE, I used a timeout function with a delay of 2 seconds.
+
+6. Regarding on the Unit Tests, I have implemented a unit test of each different type of file, reducers, actions, saga and components.
+
+
