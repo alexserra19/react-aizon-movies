@@ -1,0 +1,598 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App Correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <header
+            aria-label="header"
+            class="bx--header headerBarContainer container"
+          >
+            <div>
+              <a
+                href="/home"
+              >
+                <img
+                  alt="logo"
+                  class="App-logo"
+                  src="logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="headerLinks"
+            >
+              <a
+                class="linkItem"
+                href="/movies"
+                style="background-color: transparent;"
+              >
+                <img
+                  alt="movies"
+                  src="icon-movies.png"
+                />
+                <span>
+                  Movies
+                </span>
+              </a>
+              <a
+                class="linkItem"
+                href="/series"
+                style="background-color: transparent;"
+              >
+                <img
+                  alt="series"
+                  src="icon-series.png"
+                />
+                Series
+              </a>
+            </div>
+            <div
+              class="rightHeader"
+            >
+              <button
+                class="buttonLogin bx--btn bx--btn--primary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="loginText"
+                >
+                  Login
+                </span>
+                <img
+                  alt="login"
+                  src="icon-login.png"
+                />
+              </button>
+              <button
+                class="freeTrial bx--btn bx--btn--primary"
+                tabindex="0"
+                type="button"
+              >
+                <span>
+                  Start your free trial
+                </span>
+              </button>
+            </div>
+          </header>
+        </div>
+        <div
+          class="layoutContainer"
+        >
+          <div
+            class="bx--grid"
+            style="text-align: center; padding: 0px; display: initial;"
+          >
+            <div
+              class="bx--row"
+              style="margin: 0px;"
+            >
+              <div
+                class="bx--col-lg-8 homeMenuItemCol"
+              >
+                <div
+                  class="homeMenuItem"
+                >
+                  <a
+                    href="/movies"
+                  >
+                    <img
+                      alt="Movies"
+                      class="menuImage"
+                      src="movies.png"
+                    />
+                    <div
+                      class="titleRow"
+                    >
+                      <h1
+                        style="color: rgba(255, 255, 255, 1);"
+                      >
+                        Movies
+                      </h1>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="bx--col-lg-8 homeMenuItemCol"
+              >
+                <div
+                  class="homeMenuItem"
+                >
+                  <a
+                    href="/series"
+                  >
+                    <img
+                      alt="Series"
+                      class="menuImage"
+                      src="series.png"
+                    />
+                    <div
+                      class="titleRow"
+                    >
+                      <h1
+                        style="color: rgba(255, 255, 255, 1);"
+                      >
+                        Series
+                      </h1>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footerContainer container bx--grid"
+      >
+        <div
+          class="bx--row logoRow"
+        >
+          <div
+            class="bx--col-sm-15"
+          >
+            <a
+              href="/home"
+            >
+              <img
+                alt="logo"
+                class="App-logo"
+                src="logo.png"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="bx--row"
+        >
+          <div
+            class="bx--col-lg-4"
+          />
+          <div
+            class="bx--col-lg-8"
+          >
+            <div
+              class="bx--row linksDiv"
+            >
+              <div
+                class="bx--col-lg-3 bx--col-sm-15 link"
+              >
+                <a
+                  href="/home"
+                >
+                  Home
+                </a>
+              </div>
+              <div
+                class="bx--col-lg-3 bx--col-sm-15 link"
+              >
+                <a
+                  href="/home"
+                >
+                  Terms of Use
+                </a>
+              </div>
+              <div
+                class="bx--col-lg-3 bx--col-sm-15 link"
+              >
+                <a
+                  href="/home"
+                >
+                  Legal Notices
+                </a>
+              </div>
+              <div
+                class="bx--col-lg-3 bx--col-sm-15 link"
+              >
+                <a
+                  href="/home"
+                >
+                  Help
+                </a>
+              </div>
+              <div
+                class="bx--col-lg-3 bx--col-sm-15 link"
+              >
+                <a
+                  href="/home"
+                >
+                  Manage Account
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bx--col-lg-4"
+          />
+        </div>
+        <div
+          class="bx--row"
+        >
+          <div
+            class="bx--col-lg-4"
+          />
+          <div
+            class="bx--col-lg-8"
+          >
+            <div
+              class="bx--row storesRow"
+            >
+              <div
+                class="bx--col-lg-8 bx--col-md-8 bx--col-sm-15 store"
+              >
+                <img
+                  alt="App Store"
+                  class="App-logo"
+                  src="app-store.png"
+                />
+              </div>
+              <div
+                class="bx--col-lg-8 bx--col-md-8 bx--col-sm-15 store"
+              >
+                <img
+                  alt="Google Play"
+                  class="App-logo"
+                  src="google-play.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="bx--col-lg-4"
+          />
+        </div>
+        <div>
+          <small>
+            Copyright 2020 Dreadfull Tomato Streaming. All Rights Reserved
+          </small>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <header
+          aria-label="header"
+          class="bx--header headerBarContainer container"
+        >
+          <div>
+            <a
+              href="/home"
+            >
+              <img
+                alt="logo"
+                class="App-logo"
+                src="logo.png"
+              />
+            </a>
+          </div>
+          <div
+            class="headerLinks"
+          >
+            <a
+              class="linkItem"
+              href="/movies"
+              style="background-color: transparent;"
+            >
+              <img
+                alt="movies"
+                src="icon-movies.png"
+              />
+              <span>
+                Movies
+              </span>
+            </a>
+            <a
+              class="linkItem"
+              href="/series"
+              style="background-color: transparent;"
+            >
+              <img
+                alt="series"
+                src="icon-series.png"
+              />
+              Series
+            </a>
+          </div>
+          <div
+            class="rightHeader"
+          >
+            <button
+              class="buttonLogin bx--btn bx--btn--primary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="loginText"
+              >
+                Login
+              </span>
+              <img
+                alt="login"
+                src="icon-login.png"
+              />
+            </button>
+            <button
+              class="freeTrial bx--btn bx--btn--primary"
+              tabindex="0"
+              type="button"
+            >
+              <span>
+                Start your free trial
+              </span>
+            </button>
+          </div>
+        </header>
+      </div>
+      <div
+        class="layoutContainer"
+      >
+        <div
+          class="bx--grid"
+          style="text-align: center; padding: 0px; display: initial;"
+        >
+          <div
+            class="bx--row"
+            style="margin: 0px;"
+          >
+            <div
+              class="bx--col-lg-8 homeMenuItemCol"
+            >
+              <div
+                class="homeMenuItem"
+              >
+                <a
+                  href="/movies"
+                >
+                  <img
+                    alt="Movies"
+                    class="menuImage"
+                    src="movies.png"
+                  />
+                  <div
+                    class="titleRow"
+                  >
+                    <h1
+                      style="color: rgba(255, 255, 255, 1);"
+                    >
+                      Movies
+                    </h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              class="bx--col-lg-8 homeMenuItemCol"
+            >
+              <div
+                class="homeMenuItem"
+              >
+                <a
+                  href="/series"
+                >
+                  <img
+                    alt="Series"
+                    class="menuImage"
+                    src="series.png"
+                  />
+                  <div
+                    class="titleRow"
+                  >
+                    <h1
+                      style="color: rgba(255, 255, 255, 1);"
+                    >
+                      Series
+                    </h1>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footerContainer container bx--grid"
+    >
+      <div
+        class="bx--row logoRow"
+      >
+        <div
+          class="bx--col-sm-15"
+        >
+          <a
+            href="/home"
+          >
+            <img
+              alt="logo"
+              class="App-logo"
+              src="logo.png"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="bx--row"
+      >
+        <div
+          class="bx--col-lg-4"
+        />
+        <div
+          class="bx--col-lg-8"
+        >
+          <div
+            class="bx--row linksDiv"
+          >
+            <div
+              class="bx--col-lg-3 bx--col-sm-15 link"
+            >
+              <a
+                href="/home"
+              >
+                Home
+              </a>
+            </div>
+            <div
+              class="bx--col-lg-3 bx--col-sm-15 link"
+            >
+              <a
+                href="/home"
+              >
+                Terms of Use
+              </a>
+            </div>
+            <div
+              class="bx--col-lg-3 bx--col-sm-15 link"
+            >
+              <a
+                href="/home"
+              >
+                Legal Notices
+              </a>
+            </div>
+            <div
+              class="bx--col-lg-3 bx--col-sm-15 link"
+            >
+              <a
+                href="/home"
+              >
+                Help
+              </a>
+            </div>
+            <div
+              class="bx--col-lg-3 bx--col-sm-15 link"
+            >
+              <a
+                href="/home"
+              >
+                Manage Account
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bx--col-lg-4"
+        />
+      </div>
+      <div
+        class="bx--row"
+      >
+        <div
+          class="bx--col-lg-4"
+        />
+        <div
+          class="bx--col-lg-8"
+        >
+          <div
+            class="bx--row storesRow"
+          >
+            <div
+              class="bx--col-lg-8 bx--col-md-8 bx--col-sm-15 store"
+            >
+              <img
+                alt="App Store"
+                class="App-logo"
+                src="app-store.png"
+              />
+            </div>
+            <div
+              class="bx--col-lg-8 bx--col-md-8 bx--col-sm-15 store"
+            >
+              <img
+                alt="Google Play"
+                class="App-logo"
+                src="google-play.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="bx--col-lg-4"
+        />
+      </div>
+      <div>
+        <small>
+          Copyright 2020 Dreadfull Tomato Streaming. All Rights Reserved
+        </small>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,41 @@
+@import '../../styles/variables.scss';
+
+.footerContainer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $black;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    max-width: inherit;
+    display: grid; 
+       
+    .logoRow {
+        justify-content: center;
+        img {
+            width: 50%;
+        }
+    }
+    .linksDiv {
+        justify-content: center;
+        .link {
+            display: contents;
+            a {
+                padding: 0px 10px 0px 10px;
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+    .storesRow {
+        justify-content: center;
+        .store {
+            img {
+                padding: 10px 5px 10px 5px;
+            }
+            display: contents;
+        }
+    }
+
+    color: $white
+}

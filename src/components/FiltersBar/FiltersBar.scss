@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.filtersBarContainer {
+    overflow: hidden;
+    background-color: $red;
+    align-content: center;
+
+    .bx--grid {
+        padding: 15px 0px 15px 0px; 
+    }
+
+    .bx--search-close {
+        display: none;
+    }
+
+    .yearPicker {
+        border: none;
+        border-radius: 20px;
+        height: 30px;
+    }
+}

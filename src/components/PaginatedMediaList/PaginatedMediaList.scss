@@ -1,0 +1,108 @@
+@import '../../styles/variables.scss';
+
+.paginatedMediaListContainer {
+    .noMediaAvailable{
+        text-align: center;
+        padding: 50px;
+        h4 {
+            color: $white;
+        }
+    }
+
+    .gridContainer {
+        padding: 0;
+    }
+
+    padding: 20px 0px;
+
+    h3 {
+        font-weight: bold;
+        color: $white;
+    }
+
+    .mediaItemContainer {
+        padding: 5px;
+        .mediaItemBody {
+            position: relative;
+            height: 250px;
+    
+            img {
+                height: 100%;
+                width: 100%;
+            }
+    
+            .titleContainer, .titleContainerDescription {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                background-color: $black;
+                opacity: 0.8;
+                padding: 15px;
+
+                span {
+                    color: $white
+                }
+            }
+
+            .titleContainerDescription {
+                display: none;
+                .bx--grid {
+                    padding: 5px 15px;
+                }
+
+                b {
+                    font-weight: bold;
+                    color: $white;
+                }
+
+                .year {
+                    color: $red
+                }
+
+                span {
+                    margin: 2px 0px;
+                }
+            }
+
+        }
+        a:hover {
+            .titleContainer {
+                display: none;
+            }
+            .titleContainerDescription {
+                display: inherit;
+            }
+        }
+    }
+
+    .paginator {
+        text-align: center;
+        margin: 40px 0px;
+
+        .ant-pagination-item-link {
+            background-color: transparent;
+            color: white;
+            border: 0;
+        }
+
+        .ant-pagination-item {
+            color: $white;
+            background-color: $red;
+            border: none;
+            border-radius: 20px;
+            opacity: 0.5;
+            a {
+                color: $white;
+            }
+        }
+
+        .ant-pagination-item-active {
+            opacity: 1;
+        }
+    }
+    
+    .bx--loading__stroke {
+        stroke: $red;
+    }
+
+}

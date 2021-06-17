@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.container {
+    padding:  0px 100px 0px 100px;
+}
+
+.layoutContainer {
+    min-height: 50em;
+    position: relative;
+    overflow: hidden;
+    margin-top: 3rem;
+    background-color: $dark;
+}

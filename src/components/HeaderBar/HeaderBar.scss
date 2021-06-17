@@ -1,0 +1,51 @@
+@import '../../styles/variables.scss';
+
+.headerBarContainer {
+    overflow: hidden;
+    border-bottom: 0;
+
+    .headerLinks {
+        width: 100%;
+        margin-left: 30px ;
+        height: 100%;
+
+        .linkItem {
+            height: 100%;
+            img {
+                margin-right: 5px;
+            }
+            text-decoration: none;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            padding:  0px 20px 0px 20px; 
+        }
+    }
+
+    .rightHeader{
+        width: 100%;
+        text-align: end;
+        .buttonLogin, .buttonFilter {
+            padding-right: 0;
+            text-align: center;
+            background-color: transparent;
+            .filtersText {
+                margin-left: 10px;
+            }
+            .loginText {
+                margin-right: 10px;
+            }
+        }
+        .freeTrial {
+            background-color: transparent;
+            span{
+                padding: 5px 20px 5px 20px;
+                background-color: $red;
+                border-radius: 20px;
+            }
+            text-align: justify;
+            padding: 10px;
+            margin-left: 10px;
+        }
+    }
+}
